@@ -1,0 +1,100 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, sans-serif;
+}
+header {
+  padding: 30px;
+  overflow: hidden;
+  background-image: url("../images/headerimage.png");  
+}
+header h1{
+  float:left;
+}
+header ul{
+  list-style-type: none;
+  float:right;
+}
+header ul>li{
+  float: left;
+}
+header ul>li>a{
+  padding: 0 16px;
+}
+header ul>li>button{
+  width: 80px;
+  height: 25px;
+  border-radius: 9px;
+  background-color: grey;
+  color:white;
+}
+header h1>a,
+header ul>li>a{
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: grey;
+}
+.profiledec{
+  background-image: url("../images/image7.png"); 
+}
+section div>img{
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+section div>h1{
+  text-align: center;
+  margin: 10px 0;
+}
+section div>p{
+  text-align: justify;
+  margin: 0 150px;
+  padding-top: 10px;
+}
+section div>p:last-child{
+padding-bottom: 70px;
+}
+div .acivites{
+ background-image: url("../images/activites.jpg");  
+}
+div img {
+ margin: 50px 50px 50px 50px;
+}
+div .doc{
+  margin: 0 100px;
+}
+#container{
+  background-image: url("../images/headerimage.png"); 
+  padding-top: 20px;
+  margin-bottom: 10px;
+  color: grey;
+  height: 150px;
+  overflow: auto;
+}
+#leftcontent{
+  float: left;
+  margin-left: 100px;
+}
+ #centercontent{
+  display: inline-block;
+  margin-left: 30%;
+ }
+ #centercontent p{
+  padding-bottom: 10px;
+ }
+ div .fa{
+  padding: 5px;
+  font-size: 30px;
+  color: skyblue;
+ }
+ #right{
+  float: right;
+  padding-right: 100px;
+ }
